@@ -1,0 +1,253 @@
+.maincon{
+    display: grid;grid-template-columns: repeat(2,1fr);
+}
+.conview1ca{
+    background-color:  rgb(144, 219, 252);display: flex;flex-direction: column;justify-content: center;
+    align-items: center;
+}
+.conview1ca1{
+    position: relative;bottom: 26%;
+}
+.conview1ca1 p{
+    color: #0f0e0e;
+    font-family: Roboto Condensed;font-size: 30px;
+    font-weight: 700;
+}
+.conview1ca2{
+    position: relative;bottom: 20%;display: flex;flex-direction: column;
+    justify-content: center;align-items: center;
+}
+.conview1ca2 p{
+    color: #0f0e0e;
+    font-family: Roboto Condensed;font-size: 15px;
+    font-weight: 400;text-transform:capitalize;
+}
+.conview1ca3{
+    position: relative;bottom: 15%;display: flex;flex-direction: column;
+    justify-content: center;align-items: center;
+}
+.conview1ca3 i{
+    margin-bottom: 1rem;
+}
+.conview1ca3 p{
+    color: #0f0e0e;
+    font-family: Roboto Condensed;font-size: 15px;
+    font-weight: 400;text-transform:capitalize;
+}
+.conview1ca4{
+    position: relative;bottom: 10%;display: flex;flex-direction: column;
+    justify-content: center;align-items: center;
+}
+.conview1ca4 i{
+    margin-bottom: 1rem;
+}
+.conview1ca4 p{
+    color: #0f0e0e;
+    font-family: Roboto Condensed;font-size: 15px;
+    font-weight: 400;text-transform:capitalize;
+}
+.conview1ca5{
+    position: relative;bottom: 4%;display: flex;flex-direction: column;
+    justify-content: center;align-items: center;
+}
+.conview1ca5 p{
+    color: #0f0e0e;
+    font-family: Roboto Condensed;font-size: 15px;
+    font-weight: 400;text-transform:capitalize;
+}
+.conview1caicons{
+    display: flex;
+    justify-content: space-around;width: 200px;
+}
+.conview1caicons a .fa-facebook-f{
+    color: rgb(8, 8, 8);
+}
+.conview1caicons a .fa-facebook-f:hover{
+    color: rgb(250, 82, 4);transform: scale(2);
+}
+.conview1caicons a .fa-youtube{
+    color: rgb(8, 8, 8);
+}
+.conview1caicons a .fa-youtube:hover{
+    color: rgb(40, 22, 201);transform: scale(2);
+}
+.conview1caicons a .fa-google-plus-g{
+    color: rgb(8, 8, 8);
+}
+.conview1caicons a .fa-google-plus-g:hover{
+    color: rgb(16, 226, 128);transform: scale(2);
+}
+.conview1caicons a .fa-instagram{
+    color: rgb(8, 8, 8);
+}
+.conview1caicons a .fa-instagram:hover{
+    color: rgb(10, 199, 224);transform: scale(2);
+}
+.conview1caicons a .fa-twitter{
+    color: rgb(8, 8, 8);
+}
+.conview1caicons a .fa-twitter:hover{
+    color: rgb(241, 9, 9);transform: scale(2);
+}
+.conview1cb{
+    background-color: #0f0f0e;display: flex;
+    flex-direction: column;justify-content: center;align-items: center;
+    padding: 0 30px 0 30px;
+}
+.conview1cb h1{
+    color: #FFFFFF;font-size: 40px;
+    font-family: Roboto Condensed;font-weight: 700;
+    position: relative; top: 4%;right:7%;
+}
+.conview1cb p{
+    color: #FFFFFF;font-size: 22px;
+    font-family: Roboto Condensed;font-weight: 400;
+    position: relative; top: 8%;right:7%;
+}
+ .form{
+    width: 450px;height: 500px;
+    display: flex;flex-direction: column;justify-content: center;
+    align-items: center;position: relative;top: 7%;right:7%;
+}
+.form .elin{
+    margin-top: 2rem;position: relative;bottom: 13%;right: 5%;
+    color: #FFFFFF;font-size: 15px;
+    font-family: Roboto Condensed;font-weight: 300;
+}
+.form .elin1{
+    margin-top: 2rem;position: relative;top:7%;right: 5%;
+    color: #FFFFFF;font-size: 15px;
+    font-family: Roboto Condensed;font-weight: 300;
+}
+.form .elin3{
+    margin-top: 2rem;position: relative;bottom: 9.5%;left: 45%;
+    color: #FFFFFF;font-size: 15px;
+    font-family: Roboto Condensed;font-weight: 300;
+}
+.form .elin2{
+    margin-top: 2rem;position: relative;bottom: 15%;right: 5%;
+    color: #FFFFFF;font-size: 15px;
+    font-family: Roboto Condensed;font-weight: 300;
+}
+.form .elin4{
+margin-top: 2rem;position: relative;bottom: 15%;right: 5%;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: Dancing Script, cursive;font-size: 30px;color:  rgb(137, 216, 138);
+    position: relative;top: 120px;
+}
+@media (max-width:880px) {
+    .conview1c{
+        height: 100vh;
+        display: flex;
+    }
+    .conview1cb{
+        display: none;
+    }
+    .conview1ca{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:622px) {
+    .headdown .bars {
+        display: block;
+        position: relative;
+        top: 35px;
+        left: 180px;
+    }
+    .dropdown{
+        display: none;
+    }
+    .headup .divemail{
+        display: none;
+    }
+    .headernav{
+        display: none;
+    }
+    .favcartContainer{
+        position: relative;
+        right: 120px;
+    }
+    footer p{
+        margin-left: 30px;
+    }
+}
+@media (max-width:540px) {
+    .headdown .bars {
+        display: block;
+        position: relative;
+        top: 35px;
+        left: 150px;
+    }
+    .headup .divemail{
+        display: none;
+    }
+    .headernav{
+        display: none;
+    }
+    .favcartContainer{
+        position: relative;
+        right: 130px;
+    }
+    footer p{
+        margin-left: 30px;
+    }
+}
+@media (max-width:470px) {
+    .headdown .bars {
+        display: block;
+        position: relative;
+        top: 35px;
+        left: 110px;
+    }
+    .headup .divemail{
+        display: none;
+    }
+    .headernav{
+        display: none;
+    }
+    .favcartContainer{
+        position: relative;
+        right: 130px;
+    }
+    footer p{
+        margin-left: 30px;
+    }
+}
+@media (max-width:390px) {
+    .headdown .bars {
+        display: block;
+        position: relative;
+        top: 35px;
+        left: 80px;
+    }
+    .conview1ca2 p{
+        font-size: 14px;
+    }
+    .headup .divemail{
+        display: none;
+    }
+    .headernav{
+        display: none;
+    }
+    .favcartContainer{
+        position: relative;
+        right: 110px;
+    }
+    footer p{
+        margin-left: 30px;
+    }
+    .cart{
+        width: 350px;
+        margin-left: 49.5px;
+    }
+}
+

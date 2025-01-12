@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errand</title>
+    <link rel="stylesheet" href="./products.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf48add739.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Dancing+Script:wght@400..700&family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="landheadingcontainer">
+        <div class="headup">
+          <div>
+              <i class="fa-solid fa-envelope" style="color: #080808;"></i>
+              <p>egwuatuemmanuel56@gmail.com</p>
+          </div>
+          <div>
+              <i class="fa-solid fa-phone" style="color: #030303;"></i>
+              <a href="https://wa.me/message/GZ26JMTR5BILG1" target="_blank">
+                 <p>+2348126577121 (Click, Whatsapp Only)</p> 
+              </a>
+              
+          </div>
+        </div>
+        <div class="headdown">
+          <div class="logocontainer">
+              <p style="font-family: Dancing Script, cursive;font-size: 30px;color:  rgb(137, 216, 138);margin-top: 15px;">MF<span style="color:  rgb(144, 219, 252);">Clothing</span></p>
+          </div>
+          <div class="searchdiv">
+              <input type="text" id="searchBar" placeholder="Search Your Desired Products">
+              <div class="searchbtn">
+                  <a href=""><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
+              </div>
+          </div>
+          <nav class="headernav">
+              <ul>
+                <li>
+                    <a href="./index.html" >Home</a>
+                </li>
+                  <li>
+                      <a href="./products.html" >Shop</a>
+                  </li>
+                  <li>
+                      <a href="./contact.html">Contact Us</a>
+                  </li>
+              </ul>
+          </nav>
+          <div class="favcartContainer">
+              <div class="cartnumcon">0</div>
+              <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #161718;"></i>
+          </div>
+        </div>
+      </header>
+      <div class="searchdisplay">
+        <ul class="searchlist"></ul>
+      </div>
+
+      <main>
+        <div class="landpagetext">
+            <p>WE OFFER WORLD CLASS</p>
+            <p>MALE & FEMALE CLOTHES</p>
+            <a href="./products.html">
+            <div class="shopnow">SHOP NOW</div></a>
+        </div>
+        <div class="videox">
+            <video src="./asset/853800-hd_1920_1080_25fps.mp4" autoplay loop></video>
+        </div>
+      </main>
+      <div class="cart">
+        <h2>Your Basket</h2>
+        <i class="fa-solid fa-x fa-xl close"></i>
+        <ul class="productlist"></ul>
+        <div onclick="Checkout()" class="checkout">
+            <div class="total">
+                <span>Checkout (0 items)</span>₦
+            </div>
+        </div>
+      </div>
+      <footer>
+        <p>MF<span style="color:  rgb(144, 219, 252);">Clothing</span></p>
+      </footer>
+
+
+
+    <script src="./home.js"></script>
+    <script src="./productdata.js"></script>
+    <script src="./products.js"></script>
+    
+</body>
+</html>
