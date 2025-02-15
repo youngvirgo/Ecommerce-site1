@@ -1,7 +1,7 @@
 let body = document.querySelector("body");
 let products = document.querySelector(".products");
 let favcartContainer = document.querySelector(".favcartContainer");
-let closeCart = document.querySelector(".close");
+let closeCart = document.querySelector(".closecart");
 let cartnumcon = document.querySelector(".cartnumcon");
 let productList = document.querySelector(".productlist");
 let searchlist = document.querySelector(".searchlist");
@@ -105,6 +105,7 @@ searchBar.addEventListener("keyup", (e) => {
 function Checkout() {
     window.location.href = "/checkout.html";
 }
+
 document.querySelector(".ham").addEventListener("click",function () {
     document.querySelector(".dropdownContent").style.display = "block";
     document.querySelector(".ham").style.display = "none";
