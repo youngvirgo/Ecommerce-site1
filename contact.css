@@ -241,6 +241,10 @@ footer p{
     .conview1caicons a .fa-twitter:hover{
         color: rgb(241, 9, 9);transform: scale(2);
     }
+    .searchdisplay{
+        left: 26.7%;
+    top: 100px;
+    }
 }
 @media (max-width:800px){
     .headernav{
@@ -255,6 +259,11 @@ footer p{
     }
     .whatsapp{
         left: 90%;
+    }
+    .searchdisplay{
+        width: 36.5%;
+        left: 30%;
+    top: 100px;
     }
 }
 @media (max-width:699px){
@@ -283,6 +292,11 @@ footer p{
     }
     .searchbtn{
         display: none;
+    }
+    .searchdisplay{
+        width: 40.5%;
+        left: 32%;
+    top: 100px;
     }
     
 }
@@ -319,6 +333,11 @@ footer p{
         position: relative;
         right: 70px;
     }
+    .searchdisplay{
+        width: 45.5%;
+        left: 32%;
+    top: 100px;
+    }
 }
 @media (max-width:499px){
     .headdown .logocontainer{
@@ -343,6 +362,11 @@ footer p{
     .dropdownContent{
         width: 400px;
         left: 105px;
+    }
+    .searchdisplay{
+        width: 54.5%;
+        left: 27%;
+    top: 100px;
     }
 }
 @media (max-width:390px){
@@ -400,6 +424,11 @@ footer p{
         color: #0f0e0e;
         font-family: Roboto Condensed;font-size: 12px;
         font-weight: 400;text-transform:capitalize;
+    }
+    .searchdisplay{
+        width: 65.5%;
+        left: 23%;
+    top: 100px;
     }
 }
 

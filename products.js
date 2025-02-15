@@ -49,7 +49,7 @@ function searchData(searchResults) {
         li.innerHTML = `
         <img src="images/${item.image}">
         <div>${item.Name}</div>
-        <div>${item.price}</div>
+        <div>₦${item.price}</div>
         <button onclick="Addtocart(${key})"><i class="fa-solid fa-cart-shopping fa-xxl" style="color: #161718;"></i>Add To Cart</button>
         `;
         searchlist.appendChild(li);
@@ -84,10 +84,10 @@ function reloadCart() {
         li.innerHTML = `
         <img src="images/${item.image}">
         <div>${item.Name}</div>
-        <div>${item.price}</div>
+        <div>₦${item.price}</div>
         <div>
         <button onclick="changeQuantity(${key},${item.cartnumcon-1})">-</button>
-        <div>${item.cartnumcon}</div>
+        <div class="nuzzz">${item.cartnumcon}</div>
         <button onclick="changeQuantity(${key},${item.cartnumcon+1})">+</button>
         </div>
         `;

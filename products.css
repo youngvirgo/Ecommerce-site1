@@ -194,7 +194,10 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    position: relative;
+    bottom: 3px;
 }
+
 .productlist li button{
     width: 25px;
     height: 25px;
