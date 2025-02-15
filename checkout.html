@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
     <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="checkout.css">
     <link rel="icon" href="/asset/images.png">
     <script src="https://kit.fontawesome.com/bf48add739.js" crossorigin="anonymous"></script>
 </head>
@@ -13,18 +14,15 @@
         
         <div class="headdown">
           <div class="logocontainer">
-            <p style="font-family: Dancing Script, cursive;font-size: 30px;color:  rgb(137, 216, 138);margin-top: 15px;">MF<span style="color:  rgb(144, 219, 252);">Clothing</span></p>
+            <p>MF<span style="color:  rgb(144, 219, 252);">Clothing</span></p>
           </div>
           <div class="searchdiv">
-              <input type="text" id="searchBar" placeholder="Search Your Desired Products">
-              <div class="searchbtn">
-                  <a href=""><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
-              </div>
+              <input type="text" id="searchBar" placeholder="Search">
           </div>
           <nav class="headernav">
               <ul>
                 <li>
-                    <a href="./index.html" >Home</a>
+                    <a href="home.html" >Home</a>
                 </li>
                   <li>
                       <a href="./products.html" >Shop</a>
@@ -36,8 +34,19 @@
           </nav>
           <div class="favcartContainer">
               <div class="cartnumcon">0</div>
-              <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #161718;"></i>
+              <i class="fa-solid fa-cart-shopping fa-2xl carticon" style="color: #161718;"></i>
           </div>
+          <a class="dropdown">
+            <i class="fa-solid fa-bars fa-xl ham"></i>
+            <div class="dropdownContent">
+                <div class="droptext">
+                    <a href="home.html"><span>HOME</span></a>
+                    <a href="products.html"><span>SHOP</span></a>
+                    <a href="contact.html"><span>CONTACT US</span></a>
+                    <i class="fa-solid fa-x fa-xl close"></i>
+                </div>
+            </div>
+        </a>
         </div>
       </header>
       <div class="searchdisplay">

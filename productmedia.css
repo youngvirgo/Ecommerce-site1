@@ -1,0 +1,148 @@
+@media (max-width:1026px){
+    .searchdiv{
+        margin-left: 30px;
+    }
+    .headernav{
+        margin-left: 30px;
+    }
+    .headernav ul li{
+        font-size: 20px;
+    }
+}
+@media (max-width:800px){
+    .headernav{
+        width: 40%;
+        margin-left: 30px;
+    }
+    .headernav ul li{
+        font-size: 19px;
+    }
+    .carticon{
+        font-size: 18px;
+    }
+    .whatsapp{
+        left: 90%;
+    }
+}
+@media (max-width:699px){
+    .headernav{
+        width: 40%;
+        margin-left: 30px;
+    }
+    .headernav ul li{
+        display: none;
+    }
+    .carticon{
+        font-size: 17px;
+    }
+    .dropdown{
+        color: black;
+        display: block;
+        right: 40px;
+    }
+    .dropdownContent{
+        width: 500px;
+        left: 170px;
+    }
+    .favcartContainer{
+        position: relative;
+        right: 50px;
+    }
+    .searchbtn{
+        display: none;
+    }
+    
+}
+@media (max-width:599px){
+    .headernav{
+        width: 40%;
+        margin-left: 30px;
+    }
+    .headernav ul li{
+        display: none;
+    }
+    .carticon{
+        font-size: 17px;
+    }
+    
+    .searchdiv{
+        width: 150px;
+        position: relative;
+        left: 50px;
+        
+    }
+    #searchBar{
+        width: 150px;
+        margin-left: 0;
+    }
+    .dropdown{
+        top: 37px;
+    }
+    .dropdownContent{
+        width: 450px;
+        left: 135px;
+    }
+    .favcartContainer{
+        position: relative;
+        right: 70px;
+    }
+    .searchbtn{
+        display: none;
+    }
+    .landpagetext p{
+        font-size: 25px;
+    }
+}
+@media (max-width:499px){
+    .headdown .logocontainer{
+        width: 65px;
+        margin-left: 10px;
+    }
+    .logocontainer p{
+        font-size:18px;
+    }
+    .searchdiv{
+        left: 40px;
+    }
+    .carticon{
+        font-size: 15px;
+    }
+    .favcartContainer{
+        right: 39px;
+    }
+    .dropdown{
+        top: 32px;
+        right: 15px;
+    }
+    .dropdownContent{
+        width: 400px;
+        left: 105px;
+    }
+}
+@media (max-width:390px){
+    .headdown .logocontainer{
+        width: 55px;
+        margin-left: 10px;
+    }
+    
+    .logocontainer p{
+        font-size:18px;
+    }
+    .searchdiv{
+        left: 1px;
+    }
+    .carticon{
+        font-size: 15px;
+    }
+    .favcartContainer{
+        right: 30px;
+    }
+    .landpagetext p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .dropdownContent{
+        width: 350px;
+        left: 85px;
+    }
+}

@@ -11,7 +11,8 @@ let searchBar = document.querySelector("#searchBar");
 let searchDisplay = document.querySelector(".searchdisplay");
 let Totalamount = document.querySelector(".Amount");
 
-let checkoutList = [];
+
+let checkoutList =[];
 let searchuser = [];
 
 
@@ -123,14 +124,16 @@ searchBar.addEventListener("keyup", (e) => {
 function Checkout() {
     window.location.href = "/checkout.html";
 }
-document.querySelector(".bars").addEventListener("click",function () {
-    document.querySelector(".dropdown").style.display = "block";
-    document.querySelector(".bars").style.display = "none";
+
+document.querySelector(".ham").addEventListener("click",function () {
+    document.querySelector(".dropdownContent").style.display = "block";
+    document.querySelector(".ham").style.display = "none";
 })
-document.querySelector(".closex").addEventListener("click",function () {
-    document.querySelector(".dropdown").style.display = "none";
-    document.querySelector(".bars").style.display = "block";
+document.querySelector(".close").addEventListener("click",function () {
+    document.querySelector(".dropdownContent").style.display = "none";
+    document.querySelector(".ham").style.display = "block";
 })
+
 
 
 

@@ -143,9 +143,17 @@ footer p{
     font-family: Dancing Script, cursive;font-size: 30px;color:  rgb(137, 216, 138);
     position: relative;top: 120px;
 }
-@media (max-width:880px) {
-    .conview1c{
-        height: 100vh;
+@media (max-width:1026px){
+    .searchdiv{
+        margin-left: 30px;
+    }
+    .headernav{
+        margin-left: 30px;
+    }
+    .headernav ul li{
+        font-size: 20px;
+    }
+    .maincon{
         display: flex;
     }
     .conview1cb{
@@ -155,99 +163,243 @@ footer p{
         width: 100%;
         height: 100%;
     }
-}
-@media (max-width:622px) {
-    .headdown .bars {
-        display: block;
-        position: relative;
-        top: 35px;
-        left: 180px;
+    .conview1ca1{
+        position: relative;bottom: 50px;
     }
-    .dropdown{
-        display: none;
+    .conview1ca1 p{
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 30px;
+        font-weight: 700;
     }
-    .headup .divemail{
-        display: none;
-    }
-    .headernav{
-        display: none;
-    }
-    .favcartContainer{
-        position: relative;
-        right: 120px;
-    }
-    footer p{
-        margin-left: 30px;
-    }
-}
-@media (max-width:540px) {
-    .headdown .bars {
-        display: block;
-        position: relative;
-        top: 35px;
-        left: 150px;
-    }
-    .headup .divemail{
-        display: none;
-    }
-    .headernav{
-        display: none;
-    }
-    .favcartContainer{
-        position: relative;
-        right: 130px;
-    }
-    footer p{
-        margin-left: 30px;
-    }
-}
-@media (max-width:470px) {
-    .headdown .bars {
-        display: block;
-        position: relative;
-        top: 35px;
-        left: 110px;
-    }
-    .headup .divemail{
-        display: none;
-    }
-    .headernav{
-        display: none;
-    }
-    .favcartContainer{
-        position: relative;
-        right: 130px;
-    }
-    footer p{
-        margin-left: 30px;
-    }
-}
-@media (max-width:390px) {
-    .headdown .bars {
-        display: block;
-        position: relative;
-        top: 35px;
-        left: 80px;
+    .conview1ca2{
+        position: relative;display: flex;flex-direction: column;
+        justify-content: center;align-items: center;bottom: 35px;
     }
     .conview1ca2 p{
-        font-size: 14px;
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 15px;
+        font-weight: 400;text-transform:capitalize;
     }
-    .headup .divemail{
-        display: none;
+    .conview1ca3{
+        position: relative;display: flex;flex-direction: column;
+        justify-content: center;align-items: center;bottom: 15px;
     }
+    .conview1ca3 p{
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 15px;
+        font-weight: 400;text-transform:capitalize;
+    }
+    .conview1ca4{
+        position: relative;display: flex;flex-direction: column;
+        justify-content: center;align-items: center;top: 15px;
+    }
+    .conview1ca4 p{
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 15px;
+        font-weight: 400;text-transform:capitalize;
+    }
+    .conview1ca5{
+        position: relative;display: flex;flex-direction: column;
+        justify-content: center;align-items: center;top: 40px;
+    }
+    .conview1ca5 p{
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 15px;
+        font-weight: 400;text-transform:capitalize;
+    }
+    .conview1caicons{
+        display: flex;
+        justify-content: space-around;width: 200px;position: relative;top: 60px;
+    }
+    .conview1caicons a .fa-facebook-f{
+        color: rgb(8, 8, 8);
+    }
+    .conview1caicons a .fa-facebook-f:hover{
+        color: rgb(250, 82, 4);transform: scale(2);
+    }
+    .conview1caicons a .fa-youtube{
+        color: rgb(8, 8, 8);
+    }
+    .conview1caicons a .fa-youtube:hover{
+        color: rgb(40, 22, 201);transform: scale(2);
+    }
+    .conview1caicons a .fa-google-plus-g{
+        color: rgb(8, 8, 8);
+    }
+    .conview1caicons a .fa-google-plus-g:hover{
+        color: rgb(16, 226, 128);transform: scale(2);
+    }
+    .conview1caicons a .fa-instagram{
+        color: rgb(8, 8, 8);
+    }
+    .conview1caicons a .fa-instagram:hover{
+        color: rgb(10, 199, 224);transform: scale(2);
+    }
+    .conview1caicons a .fa-twitter{
+        color: rgb(8, 8, 8);
+    }
+    .conview1caicons a .fa-twitter:hover{
+        color: rgb(241, 9, 9);transform: scale(2);
+    }
+}
+@media (max-width:800px){
     .headernav{
+        width: 40%;
+        margin-left: 30px;
+    }
+    .headernav ul li{
+        font-size: 19px;
+    }
+    .carticon{
+        font-size: 18px;
+    }
+    .whatsapp{
+        left: 90%;
+    }
+}
+@media (max-width:699px){
+    .headernav{
+        width: 40%;
+        margin-left: 30px;
+    }
+    .headernav ul li{
         display: none;
+    }
+    .carticon{
+        font-size: 17px;
+    }
+    .dropdown{
+        color: black;
+        display: block;
+        right: 40px;
+    }
+    .dropdownContent{
+        width: 500px;
+        left: 170px;
     }
     .favcartContainer{
         position: relative;
-        right: 110px;
+        right: 50px;
     }
-    footer p{
+    .searchbtn{
+        display: none;
+    }
+    
+}
+@media (max-width:599px){
+    .headernav{
+        width: 40%;
         margin-left: 30px;
     }
-    .cart{
+    .headernav ul li{
+        display: none;
+    }
+    .carticon{
+        font-size: 17px;
+    }
+    
+    .searchdiv{
+        width: 150px;
+        position: relative;
+        left: 50px;
+        
+    }
+    #searchBar{
+        width: 150px;
+        margin-left: 0;
+    }
+    .dropdown{
+        top: 30px;
+    }
+    .dropdownContent{
+        width: 450px;
+        left: 135px;
+    }
+    .favcartContainer{
+        position: relative;
+        right: 70px;
+    }
+}
+@media (max-width:499px){
+    .headdown .logocontainer{
+        width: 65px;
+        margin-left: 10px;
+    }
+    .logocontainer p{
+        font-size:18px;
+    }
+    .searchdiv{
+        left: 35px;
+    }
+    .carticon{
+        font-size: 17px;
+    }
+    .favcartContainer{
+        right: 35px;
+    }
+    .dropdown{
+        right: 15px;
+    }
+    .dropdownContent{
+        width: 400px;
+        left: 105px;
+    }
+}
+@media (max-width:390px){
+    .headdown .logocontainer{
+        width: 55px;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+    
+    .logocontainer p{
+        font-size:19px;
+    }
+    .searchdiv{
+        
+        left: 5px;
+    }
+    .searchdivBar{
+        width: 20px;
+    }
+    .carticon{
+        font-size: 16px;
+    }
+    .favcartContainer{
+        right: 15px;
+    }
+    .landpagetext p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .dropdownContent{
         width: 350px;
-        margin-left: 49.5px;
+        left: 85px;
+    }
+    .conview1ca1 p{
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 22px;
+        font-weight: 700;
+    }
+    .conview1ca2 p{
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 12px;
+        font-weight: 400;text-transform:capitalize;
+    }
+    .conview1ca3 p{
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 12px;
+        font-weight: 400;text-transform:capitalize;
+    }
+    .conview1ca4 p{
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 12px;
+        font-weight: 400;text-transform:capitalize;
+    }
+    .conview1ca5 p{
+        color: #0f0e0e;
+        font-family: Roboto Condensed;font-size: 12px;
+        font-weight: 400;text-transform:capitalize;
     }
 }
 
